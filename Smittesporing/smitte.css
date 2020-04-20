@@ -1,0 +1,66 @@
+body{
+	background-color: lightgrey;
+}
+
+
+h1{
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+	margin-right: 300px;
+	margin-left: 300px;
+
+
+}
+
+table th{
+	text-align: left;
+	border:1px solid black;
+	background-color: grey;
+	padding:4px 30px 4px 8px;
+	font-size: 40px;
+	
+
+}
+
+table td{
+	border:1px solid black;
+	padding:4px 8px;
+}
+
+
+
+table tr:nth-child(even) td{
+	background-color: lightblue;
+}
+
+article{
+	border:solid 3px black;
+	border-radius: 20px;
+	background-color: lightblue;
+	margin-right: 400px;
+	margin-left: 400px;
+	padding: 4px 30px 4px 8px;
+}
+
+h2{
+	text-align: center;
+
+}
+
+h5{
+	text-align: center;
+	font-size: 30px;
+}
+
+p{
+text-align: left;
+border:solid 3px black;
+border-radius: 20px;
+padding: 4px 30px 4px 8px;
+margin-left: 300px;
+margin-right: 300px;
+background-color: yellow;
+}
